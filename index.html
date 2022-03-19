@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project: Event invite</title>
+  <style>
+    body {
+      margin: 0;
+      width: 100%;
+      height: 100vh;
+      background-image: linear-gradient(
+        30deg,
+        hsl(47deg 36% 13%) 0%,
+        hsl(41deg 28% 20%) 5%,
+        hsl(39deg 26% 26%) 9%,
+        hsl(38deg 25% 30%) 14%,
+        hsl(37deg 25% 34%) 18%,
+        hsl(37deg 24% 38%) 23%,
+        hsl(36deg 24% 41%) 28%,
+        hsl(36deg 24% 44%) 33%,
+        hsl(36deg 24% 47%) 38%,
+        hsl(36deg 24% 49%) 43%,
+        hsl(36deg 25% 52%) 49%,
+        hsl(35deg 28% 54%) 54%,
+        hsl(35deg 30% 56%) 60%,
+        hsl(35deg 33% 58%) 67%,
+        hsl(35deg 36% 61%) 74%,
+        hsl(35deg 39% 63%) 83%,
+        hsl(35deg 43% 65%) 100%
+      );
+    }
+
+    h1, h2, h3, ul, p{
+      margin: 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    #card {
+      margin: 40px auto;
+      width: 90%;
+      padding: 15px;
+      border: 1px solid rgb(255, 216, 216);
+      display: flex;
+      background: #ffeacc;
+      border-radius: 5px;
+    }
+
+    .left {
+      font-family: 'Courier New', Courier, monospace;
+      width: 50%;
+    }
+
+    .right {
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      width: 50%;
+    }
+
+    #cover img{
+      margin-top: 25px;
+      max-width: 220px;
+    }
+
+    #message {
+      position: relative;
+      letter-spacing: 2px; 
+    }
+
+    #time-location {
+      margin-bottom: 20px;
+    }
+
+    #album-link {
+      display: flex;
+      margin-top: 30px;
+      float: right;
+    }
+
+    #album-link a {
+      color: #ffeacc;
+      background: #2e2815;
+      border: 1px solid #2e2815;
+      padding: 6px 25px;
+      transition: 0.1s ease-in-out;
+    
+    }
+
+    #album-link a:hover {
+      color: #2e2815;
+      background: #ffeacc;
+      border: 1px solid #2e2815;
+      padding: 6px 25px;
+      transition: 0.2s ease-in-out;
+    }
+
+    @media screen and (max-width: 425px) {
+    #card {
+      flex-direction: column;
+    }
+}
+  </style>
+</head>
+<body>
+  <div id="card">
+    <div class="left">
+      <section id="head">
+        <h1>sawayama streaming party</h1>
+        <h3>⌁ a phenomenal invitation ⌁</h3>
+      </section>
+  
+      <section id="cover">
+        <img src="https://upload.wikimedia.org/wikipedia/en/8/83/Sawayama_by_Rina_Sawayama_album_cover_%28digital%29.png" alt="SAWAYAMA">
+      </section>
+    </div>
+
+    <div class="right">
+      <section id="message">
+        <div id="time-location">
+          <p><strong>to: everyone (with taste).</strong></p>
+          <p><strong>date: tomorrow (maybe).</strong></p>
+          <p><strong>location: cyber stockholm.</strong></p>
+        </div>
+        <p>
+          calling all folks everywhee & anywhere who those interested in fine arts.
+        </p>
+        <ul>
+          <li>if you are a pop music fans, you are invited.</li>
+          <li>if you think you are a r&b enjoyer, you are also invited.</li>
+          <li>are you a rock & nu-metal enthusiast too? of course you are invited.</li>
+          <li>house, avant-pop,soul, dance, disco, and every genre listeners are all invited!!!!</li>
+        </ul>
+      </section>
+  
+      <section id="album-link">
+        <a href="https://open.spotify.com/album/3stadz88XVpHcXnVYMHc4J?si=dxrhfTRtTz6dK7ZV0DZPwg">lead me to the party</a>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
